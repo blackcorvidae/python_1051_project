@@ -12,6 +12,12 @@ class Extractor:
         collection = db.options
         post_id = collection.insert(post)
         return post_id
+    def get_config(self, criteria):
+        client = MongoClient('mongodb://localhost:27017/')
+        db = client.dom_project
+        collection = db.options
+        return collection.find_one()
+
     collected_urls = []
     def add_url_to_collected(self, url):
         if not self.search_collected_urls(url):
