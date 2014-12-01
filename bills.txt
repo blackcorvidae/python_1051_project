@@ -1,0 +1,9 @@
+We will apply ontology:
+http://en.wikipedia.org/wiki/Ontology_(information_science)
+
+for PA, House daily sessions:
+http://www.legis.state.pa.us/cfdocs/legis/home/hs/hdsr.cfm
+
+urllib
+https://docs.python.org/2/howto/urllib2.html
+
